@@ -20,8 +20,6 @@
             </view>
             <view class="weui-search-bar__cancel-btn" hidden="{{!searchShowed}}" bindtap="hideSearch">取消</view>
         </view>
-    </view>
-    <view class="page__bd">
         <view class="weui-grids">
             <block wx:for-items="{{categorys}}" wx:key="{{id}}">
                 <navigator url="" class="weui-grid" hover-class="weui-grid_active">
