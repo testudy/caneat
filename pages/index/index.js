@@ -7,11 +7,30 @@ Page({
         searchShowed: false,
         searchPlaceholder: '请输入食物名称，例如“西洋参”',
         searchValue: "",
+        categorys: [],
     },
 
     onLoad: function () {
         console.log('onLoad');
         console.log(app);
+
+        wx.request({
+            url: 'http://api.1.fpm.babytree.com/api/mobile_toolcms/can_eat',
+            data: {
+                'text_format': 'json',
+            },
+            header: {
+                'content-type': 'application/x-www-form-urlencoded',
+            },
+            success: (res) => {
+                if (res.data && res.data.data && res.data.data.categorys) {
+                    this.setData({
+                        categorys: res.data.data.categorys,
+                    });
+                    console.log(res.data.data.categorys);
+                }
+            },
+        });
     },
 
     showSearch: function () {
