@@ -1,10 +1,24 @@
-<!--index.wxml-->
-<view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="{{searchPlaceholder}}"
+                        value="{{searchValue}}"
+                        focus="{{searchShowed}}"
+                        bindinput="searchTyping"
+                        bindconfirm="search" />
+                    <view class="weui-icon-clear" wx:if="{{searchValue.length > 0}}" bindtap="clearSearch">
+                        <icon type="clear" size="14"></icon>
+                    </view>
+                </view>
+                <label class="weui-search-bar__label" hidden="{{searchShowed}}" bindtap="showSearch">
+                    <icon class="weui-icon-search" type="search" size="14"></icon>
+                    <view class="weui-search-bar__text">{{searchPlaceholder}}</view>
+                </label>
+            </view>
+            <view class="weui-search-bar__cancel-btn" hidden="{{!searchShowed}}" bindtap="hideSearch">取消</view>
+        </view>
+    </view>
 </view>
