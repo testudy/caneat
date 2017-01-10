@@ -77,18 +77,8 @@ Page({
             return;
         }
 
-        wx.request({
-            url: 'https://api.1.fpm.babytree.com/api/mobile_toolcms/can_eat_search',
-            data: {
-                'text_format': 'json',
-                'q': this.data.searchValue,
-            },
-            header: {
-                'content-type': 'application/x-www-form-urlencoded',
-            },
-            success: (res) => {
-                console.log(res);
-            }
+        wx.navigateTo({
+            url: '/pages/search/index?keyword=' + encodeURIComponent(this.data.searchValue),
         });
     },
 
