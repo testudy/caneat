@@ -1,12 +1,15 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/list/index",
+    "pages/detail/index",
+    "pages/search/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "宝宝树孕育什么不能吃",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "debug": true
 }
