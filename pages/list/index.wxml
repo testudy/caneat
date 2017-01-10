@@ -4,7 +4,7 @@
             <view class="weui-panel__hd">{{category}}</view>
             <view class="weui-panel__bd">
                 <block wx:for-items="{{post_list}}" wx:key="{{id}}">
-                    <navigator url="/pages/list/index?post_id={{item.id}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <navigator url="/pages/detail/index?post_id={{item.id}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                         <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                             <image class="weui-media-box__thumb" src="{{item.thumbs}}" />
                         </view>
@@ -22,6 +22,7 @@
                                 </block>
                             </view>
                         </view>
+                        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
                     </navigator>
                 </block>
             </view>
