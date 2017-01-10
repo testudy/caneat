@@ -1,26 +1,37 @@
 //index.js
 //获取应用实例
-var app = getApp()
+const app = getApp();
 Page({
-  data: {
-    motto: 'Hello World',
-    userInfo: {}
-  },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
-  onLoad: function () {
-    console.log('onLoad')
-    var that = this
-    //调用应用实例的方法获取全局数据
-    app.getUserInfo(function(userInfo){
-      //更新数据
-      that.setData({
-        userInfo:userInfo
-      })
-    })
-  }
-})
+    data: {
+        post_list: [],
+        category: '',
+    },
+
+    onLoad: function (options) {
+        console.log('onLoad');
+        console.log(options);
+
+        // TODO 删除
+        const categoryId = options.category_id || 28;
+
+        wx.request({
+            url: 'https://api.1.fpm.babytree.com/api/mobile_toolcms/can_eat_list',
+            data: {
+                'text_format': 'json',
+                'cat_id': categoryId,
+            },
+            header: {
+                'content-type': 'application/x-www-form-urlencoded',
+            },
+            success: (res) => {
+                if (res.data && res.data.data && res.data.data.post_list && res.data.data.title) {
+                    this.setData({
+                        post_list: res.data.data.post_list,
+                        category: res.data.data.title,
+                    });
+                    console.log(res.data.data.post_list);
+                }
+            },
+        });
+    },
+});

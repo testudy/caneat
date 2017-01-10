@@ -1,10 +1,30 @@
-<!--index.wxml-->
-<view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">{{category}}</view>
+            <view class="weui-panel__bd">
+                <block wx:for-items="{{post_list}}" wx:key="{{id}}">
+                    <navigator url="/pages/list/index?post_id={{item.id}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                            <image class="weui-media-box__thumb" src="{{item.thumbs}}" />
+                        </view>
+                        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                            <view class="weui-media-box__title">{{item.title}}</view>
+                            <view class="weui-media-box__desc">{{item.sub_title}}</view>
+                            <view class="weui-media-box__info">
+                                <block wx:for-items="{{item.post_attr}}" wx:key="{{name}}">
+                                    <view class="weui-media-box__info__meta">
+                                        <icon type="success" size="23" wx:if="{{item.status == 1}}"></icon>
+                                        <icon type="warn" size="23" wx:if="{{item.status == 2}}"></icon>
+                                        <icon type="cancel" size="23" wx:if="{{item.status == 3}}"></icon>
+                                        {{item.name}}
+                                    </view>
+                                </block>
+                            </view>
+                        </view>
+                    </navigator>
+                </block>
+            </view>
+        </view>
+    </view>
 </view>
