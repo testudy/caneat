@@ -15,7 +15,7 @@ Page({
         const categoryId = options.category_id || 28;
 
         wx.request({
-            url: 'https://api.1.fpm.babytree.com/api/mobile_toolcms/can_eat_list',
+            url: 'https://api.babytree.com/api/mobile_toolcms/can_eat_list',
             data: {
                 'text_format': 'json',
                 'cat_id': categoryId,

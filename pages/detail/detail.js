@@ -14,7 +14,7 @@ Page({
         const titleId = options.title_id || 528;
 
         wx.request({
-            url: 'https://api.1.fpm.babytree.com/api/mobile_toolcms/can_eat_detail',
+            url: 'https://api.babytree.com/api/mobile_toolcms/can_eat_detail',
             data: {
                 'text_format': 'json',
                 'id': titleId,

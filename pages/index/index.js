@@ -15,7 +15,7 @@ Page({
         console.log(app);
 
         wx.request({
-            url: 'https://api.1.fpm.babytree.com/api/mobile_toolcms/can_eat',
+            url: 'https://api.babytree.com/api/mobile_toolcms/can_eat',
             data: {
                 'text_format': 'json',
             },

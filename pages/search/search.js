@@ -15,7 +15,7 @@ Page({
         const keyword = options.keyword || '米';
 
         wx.request({
-            url: 'https://api.1.fpm.babytree.com/api/mobile_toolcms/can_eat_search',
+            url: 'https://api.babytree.com/api/mobile_toolcms/can_eat_search',
             data: {
                 'text_format': 'json',
                 'q': keyword,
