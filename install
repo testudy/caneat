@@ -1,0 +1,263 @@
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Hardware: MacBookPro13,3 @ 2.70 GHz (x 8), 16384 MB RAM
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Running OS Build: Mac OS X 10.13 (17A405)
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: DYLD_NO_FIX_PREBINDING=1
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: PATH=/usr/bin:/bin:/usr/sbin:/sbin
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: PWD=/
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: XPC_FLAGS=0x0
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: XPC_SERVICE_NAME=0
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: SHLVL=1
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: __OSINSTALL_ENVIRONMENT=1
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: CI_DEFAULT_OPENCL_USAGE=0
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: OS_INSTALL=1
+Oct 13 14:09:28 MacBook-Pro InstallAssistant[5318]: Env: _=/System/Library/CoreServices/Language Chooser.app/Contents/MacOS/Language Chooser
+Oct 13 14:09:28 MacBook-Pro Unknown[520]: objc[5318]: Class OSISSystemInfo is implemented in both /Install macOS High Sierra.app/Contents/MacOS/InstallAssistant (0x103ae0ec8) and /Install macOS High Sierra.app/Contents/PlugIns/DiskManagement.IABundle/Contents/MacOS/DiskManagement (0x11bac3990). One of the two will be used. Which one is undefined.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: OSISChunkedDownload loaded...
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: OSISSoftwareUpdateController: Using catalog (source: GM Default): https://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Using product <OSISSharedSupportProduct: 0x7f9c5d416040> at distance 10
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: osinstallersetupd registered client
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Local/Target, Options: 0x0
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] caller is using legacy node name of '/Local/Target', should use '/Local/Default' instead
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] node assigned UUID - CA544E06-188A-445B-B747-DA2AFFC4ED94
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] ODNodeCreateWithNameAndOptions completed
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] ODQueryCreateWithNode request, NodeID: CA544E06-188A-445B-B747-DA2AFFC4ED94, RecordType(s): dsRecTypeStandard:Users, Attribute: dsAttrTypeStandard:RecordName, MatchType: Any, Equality: CaseIgnore, Value(s): dsRecordsAll, Requested Attributes: dsAttributesAll, Max Results: 2147483647
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] ODQueryCreateWithNode completed, delivered 98 results
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Is solid state disk returned: -69808
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: isConvertableToAPFS: was called on a APFS disk.
+Oct 13 14:09:28 MacBook-Pro osinstallersetupd[5319]: Target is not convertible to APFS: 这个宗卷未格式化为 Mac OS 扩展（日志式）格式。
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] ODNodeRelease request, NodeID: CA544E06-188A-445B-B747-DA2AFFC4ED94
+Oct 13 14:09:28 MacBook-Pro opendirectoryd[183]: [session] ODNodeRelease completed
+Oct 13 14:09:29 MacBook-Pro osinstallersetupd[5319]: OSISSoftwareUpdateController: Loaded catalog https://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog (532 products)
+Oct 13 14:09:29 MacBook-Pro Unknown[520]: 2017-10-13 14:09:29.522 InstallAssistant[5318:150735] NSColorList could not parse color list file /System/Library/Colors/System.clr
+Oct 13 14:09:29 MacBook-Pro Unknown[520]: 2017-10-13 14:09:29.550 InstallAssistant[5318:150735] Failed to connect (continuePane) outlet from (IASetupWindowController) to (NSTextField): missing setter or instance variable
+Oct 13 14:09:29 MacBook-Pro Unknown[520]: 2017-10-13 14:09:29.566 InstallAssistant[5318:150735] NSSoftLinking - The Quartz framework's library couldn't be loaded from /System/Library/Frameworks/Quartz.framework/Versions/A/Quartz.
+Oct 13 14:09:31 MacBook-Pro osinstallersetupd[5319]: Using product <OSISPredicateUpdateInstallerProduct: 0x7f9c5d541be0> at distance 20
+Oct 13 14:09:31 MacBook-Pro osinstallersetupd[5319]: OSISPredicateUpdateProduct: Evaluating products in catalog
+Oct 13 14:09:32 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:32 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:32 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:33 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:34 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:35 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:35 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:35 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:35 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:36 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:37 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:37 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:38 MacBook-Pro Unknown[520]: 2017-10-13 14:09:38.877 InstallAssistant[5318:150735] *** WARNING: Method userSpaceScaleFactor in class NSWindow is deprecated on 10.7 and later. It should not be used in new applications. Use convertRectToBacking: instead. 
+Oct 13 14:09:39 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:39 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:39 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:39 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:39 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:39 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:40 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:40 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: JS: 10.13
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:41 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:43 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:43 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:43 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:43 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:43 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:47 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:47 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:48 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/tmp/com.apple.pkg.testing" requires <options allow-external-scripts='true'>
+Oct 13 14:09:48 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/var/db/.AppleTier3Language" requires <options allow-external-scripts='true'>
+Oct 13 14:09:52 MacBook-Pro osinstallersetupd[5319]: IFJS: Package Authoring Error: access to path "/private/var/db/gkopaque.bundle" requires <options allow-external-scripts='true'>
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISPredicateUpdateProduct: Finished evaluating products in catalog (1 installable products)
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISPredicateUpdateProduct: Found product: <MSUProduct: key=091-36857, name="安装 macOS High Sierra", evaluated=YES, installable=YES, staged=NO>
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: Using identifier for InstallInfo from ExtendedMetaInfo
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: Using identifier for OS install from ExtendedMetaInfo
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISPredicateUpdateInstallerProduct: Downloading http://swcdn.apple.com/content/downloads/30/55/091-36857/e08asjpjpbflt33p43ufqmuv6b39x8pa10/InstallInfo.plist
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISPredicateUpdateInstallerProduct: Downloading http://swcdn.apple.com/content/downloads/30/55/091-36857/e08asjpjpbflt33p43ufqmuv6b39x8pa10/OSInstall.mpkg
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISSimpleDownloaderDelegate: packageDownloaderDidStart:
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISSimpleDownloaderDelegate: packageDownloader:didChangeProgress: 0.00
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISSimpleDownloaderDelegate: packageDownloader:didStartDownloadingPackageWithReference: com.apple.plist.InstallInfo
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: No native mechanism to verify InstallInfo.plist
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISSimpleDownloaderDelegate: packageDownloader:didFinishPackageReference:localPackageReference: com.apple.plist.InstallInfo
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISSimpleDownloaderDelegate: packageDownloader:didStartDownloadingPackageWithReference: com.apple.mpkg.OSInstall
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISSimpleDownloaderDelegate: packageDownloader:didChangeProgress: 71.52
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISSimpleDownloaderDelegate: packageDownloader:didFinishPackageReference:localPackageReference: com.apple.mpkg.OSInstall
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISSimpleDownloaderDelegate: packageDownloader:didChangeProgress: 100.00
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISSimpleDownloaderDelegate: packageDownloaderDidStop, signalling
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISPredicateUpdateInstallerProduct: Downloaded InstallInfo.plist to file:///var/tmp/OSISPredicateUpdateProductTemp/InstallInfo.plist
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: OSISPredicateUpdateInstallerProduct: Downloaded OSInstall.mpkg to file:///var/tmp/OSISPredicateUpdateProductTemp/OSInstall.mpkg
+Oct 13 14:09:53 MacBook-Pro osinstallersetupd[5319]: Predicate update product fetch succeeded!
+Oct 13 14:09:54 MacBook-Pro osinstallersetupd[5319]: Got and processed license agreement message
+Oct 13 14:09:54 MacBook-Pro InstallAssistant[5318]: diskmanagement: [DMManager(PrivateMethods) clientConforms:error:]: currentThread=46955=0xb76b expectedThread=775=0x307
+Oct 13 14:09:54 MacBook-Pro InstallAssistant[5318]: diskmanagement: [DMManager(PrivateMethods) clientConforms:error:]: currentThread=46955=0xb76b expectedThread=775=0x307
+Oct 13 14:09:54 MacBook-Pro InstallAssistant[5318]: diskmanagement: [DMManager(PrivateMethods) clientConforms:error:]: currentThread=46955=0xb76b expectedThread=775=0x307
+Oct 13 14:09:54 MacBook-Pro InstallAssistant[5318]: diskmanagement: [DMManager(PrivateMethods) clientConforms:error:]: currentThread=46955=0xb76b expectedThread=775=0x307
+Oct 13 14:09:54 MacBook-Pro InstallAssistant[5318]: diskmanagement: [DMManager(PrivateMethods) clientConforms:error:]: currentThread=46955=0xb76b expectedThread=775=0x307
+Oct 13 14:09:54 MacBook-Pro InstallAssistant[5318]: diskmanagement: [DMManager(PrivateMethods) clientConforms:error:]: currentThread=46955=0xb76b expectedThread=775=0x307
+Oct 13 14:09:54 MacBook-Pro InstallAssistant[5318]: diskmanagement: [DMManager(PrivateMethods) clientConforms:error:]: currentThread=46955=0xb76b expectedThread=775=0x307
+Oct 13 14:09:54 MacBook-Pro osinstallersetupd[5319]: Specifier (<PKPackageSpecifier>:
+	{
+	    URL = "file:///var/tmp/OSISPredicateUpdateProductTemp/Core.pkg";
+	    authLevel = 2;
+	    displayName = macOS;
+	    identifier = "com.apple.pkg.Core";
+	    options = 16;
+	    version = "10.13.0.0.0.1507010516";
+	}) missing reference.
+Oct 13 14:09:54 MacBook-Pro osinstallersetupd[5319]: Specifier (<PKPackageSpecifier>:
+	{
+	    URL = "file:///var/tmp/OSISPredicateUpdateProductTemp/EmbeddedOSFirmware.pkg";
+	    authLevel = 2;
+	    displayName = macOS;
+	    identifier = "com.apple.pkg.EmbeddedOSFirmware";
+	    options = 16;
+	    version = "10.13.0.0.0.1507010516";
+	}) missing reference.
+Oct 13 14:09:54 MacBook-Pro osinstallersetupd[5319]: No available package ref for compatibility update. Ignoring.
+Oct 13 14:11:44 MacBook-Pro InstallAssistant[5318]: Failed to check if a disk is FDE.
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Using product <OSISCollectionInstallProduct: 0x7f9c5d5563c0> at distance 10
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Helper tool loaded
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Specifier (<PKPackageSpecifier>:
+	{
+	    URL = "file:///var/tmp/OSISPredicateUpdateProductTemp/Core.pkg";
+	    authLevel = 2;
+	    displayName = macOS;
+	    identifier = "com.apple.pkg.Core";
+	    options = 16;
+	    version = "10.13.0.0.0.1507010516";
+	}) missing reference.
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Specifier (<PKPackageSpecifier>:
+	{
+	    URL = "file:///var/tmp/OSISPredicateUpdateProductTemp/EmbeddedOSFirmware.pkg";
+	    authLevel = 2;
+	    displayName = macOS;
+	    identifier = "com.apple.pkg.EmbeddedOSFirmware";
+	    options = 16;
+	    version = "10.13.0.0.0.1507010516";
+	}) missing reference.
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: No available package ref for compatibility update. Ignoring.
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Using product <OSISPredicateUpdateInstallerProduct: 0x7f9c5d541be0> at distance 25
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Required package references: (
+	    "<PKDistributionPackageReference com.apple.pkg.Core>",
+	    "<PKDistributionPackageReference com.apple.pkg.EmbeddedOSFirmware>",
+	    "{\n    Identifier = \"com.apple.dmg.BaseSystem\";\n    MD5 = \"\";\n    Size = 0;\n    URL = \"BaseSystem.dmg\";\n    Version = \"10.13.0.0.0.1507010516\";\n}",
+	    "{\n    Identifier = \"com.apple.chunklist.BaseSystem\";\n    MD5 = \"\";\n    Size = 4096;\n    URL = \"BaseSystem.chunklist\";\n    Version = \"10.13.0.0.0.1507010516\";\n}",
+	    "{\n    Identifier = \"com.apple.dmg.AppleDiagnostics\";\n    MD5 = \"\";\n    Size = 0;\n    URL = \"AppleDiagnostics.dmg\";\n    Version = \"10.13.0.0.0.1507010516\";\n}",
+	    "{\n    Identifier = \"com.apple.chunklist.AppleDiagnostics\";\n    MD5 = \"\";\n    Size = 4096;\n    URL = \"AppleDiagnostics.chunklist\";\n    Version = \"10.13.0.0.0.1507010516\";\n}",
+	    "{\n    Identifier = \"com.apple.pkg.InstallESDDmg\";\n    MD5 = \"\";\n    Size = 0;\n    URL = \"InstallESDDmg.pkg\";\n    Version = \"10.13.0.0.0.1507010516\";\n}",
+	    "{\n    Identifier = \"com.apple.pkg.CompatibilityUpdate\";\n    MD5 = \"\";\n    Size = 0;\n    URL = \"\";\n    Version = \"10.13\";\n}",
+	    "{\n    Identifier = \"com.apple.plist.InstallInfo\";\n    MD5 = \"\";\n    Size = 1584;\n    URL = \"linkfile:///var/tmp/OSISPredicateUpdateProductTemp/InstallInfo.plist\";\n    Version = \"10.13.0.0.0.1507010516\";\n}"
+	)
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: No available package ref for compatibility update. Ignoring.
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Unable to get fs for (null)
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: OSISDownloadOperation: totalEstimate=393.000000, significantDownload=1
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Operation queue started
+Oct 13 14:11:44 MacBook-Pro osishelperd[5334]: Privileged helper tool loaded.
+Oct 13 14:11:44 MacBook-Pro osishelperd[5334]: Will not add removal tool because target is not /.
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Using product PKSecureNetEnabledProduct <file:///Volumes/Macintosh%20SSD/macOS%20Install%20Data/> at distance 5
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Using product <MSUProduct: key=091-05077, name="(unknown)", evaluated=YES, installable=NO, staged=NO> at distance 25
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Retrieving 7 packages (5.162 GB)
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: No native mechanism to verify AppleDiagnostics.chunklist
+Oct 13 14:11:44 MacBook-Pro osinstallersetupd[5319]: Retrieved package com.apple.chunklist.AppleDiagnostics (http://swcdn.apple.com/content/downloads/30/55/091-36857/e08asjpjpbflt33p43ufqmuv6b39x8pa10/AppleDiagnostics.chunklist)
+Oct 13 14:12:13 MacBook-Pro opendirectoryd[183]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0
+Oct 13 14:12:13 MacBook-Pro opendirectoryd[183]: [session] ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Search, Options: 0x0
+Oct 13 14:12:13 MacBook-Pro opendirectoryd[183]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+Oct 13 14:12:13 MacBook-Pro Unknown[520]: 2017-10-13 14:12:13.301 InstallAssistant[5318:150735] ### Error:-14071 File:/BuildRoot/Library/Caches/com.apple.xbs/Sources/Admin/Admin-670/DSNode.m Line:608
+Oct 13 14:12:13 MacBook-Pro opendirectoryd[183]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0
+Oct 13 14:12:13 MacBook-Pro opendirectoryd[183]: [session] ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Search, Options: 0x0
+Oct 13 14:12:13 MacBook-Pro opendirectoryd[183]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+Oct 13 14:12:13 MacBook-Pro Unknown[520]: 2017-10-13 14:12:13.302 InstallAssistant[5318:150735] ### Error:-14071 File:/BuildRoot/Library/Caches/com.apple.xbs/Sources/Admin/Admin-670/DSNode.m Line:561
